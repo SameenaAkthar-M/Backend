@@ -4,8 +4,8 @@
   "main": "index.mjs",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.mjs"
-  },
+  "start": "node index.mjs"
+},
   "author": "",
   "license": "ISC",
   "description": "",

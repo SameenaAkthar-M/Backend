@@ -8,7 +8,7 @@ import orderRoute from './routes/orderRoute.mjs'
 
 dotenv.config();
 const app = express();
-const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174','https://frontend-81in.onrender.com','https://sasen.netlify.app'];
+const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174','https://sasen.netlify.app','https://sasen-admin.netlify.app'];
 
 app.use(cors({
   origin: function (origin, callback) {
